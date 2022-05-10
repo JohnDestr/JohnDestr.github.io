@@ -315,6 +315,7 @@ p,.p{
     .container{
         margin: 0px auto;
         width: 375px;
+        max-width: 414px;
         padding: 0 15px;
     }
 }
