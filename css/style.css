@@ -1066,6 +1066,11 @@ form textarea{
     padding-bottom: 0;
 }
 @media (max-width:767px) {
+    .footer{
+        width: 414px;
+        background-color: var(--secoundary);
+        color:var(--background) !important;
+    }
     .footer_part2{
        margin:40px 0 80px 0;
     }
