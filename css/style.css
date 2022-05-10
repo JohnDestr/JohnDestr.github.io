@@ -1098,14 +1098,14 @@ form textarea{
         justify-content: center;
     }
     .footerLink_contactUs{
-        width: 345px;
+        width: 100%;
         margin-bottom: 20px;
     }
     .footerLink_contactUs__wrapper{
         padding-bottom: 20px;
     }
     .footerLinks_wrapper{
-        width: 345px;
+        width: 100%;
         display: block;
     }
     .footer_links{
