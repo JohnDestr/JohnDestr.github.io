@@ -314,8 +314,7 @@ p,.p{
 @media (max-width:767px) {
     .container{
         margin: 0px auto;
-        width: 375px;
-        padding: 0 15px;
+        width: 345px;
     }
 }
 
@@ -1066,7 +1065,7 @@ form textarea{
 }
 @media (max-width:767px) {
     .footer{
-        width: 375px;
+        width: 100%;
         background-color: var(--secoundary);
         color:var(--background) !important;
     }
