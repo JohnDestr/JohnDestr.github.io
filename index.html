@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./media/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/nice-select.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Фитнес клуб «Воробьевы горы»</title>
+</head>
+<body>
+    <div class="buttons_block">
+        <!-- <a href="#" class="call_btn button_first">Заказать звонок</a> -->
+        <a href="#" class="move_top_btn"></a>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header_body">
+                <a class="logo_main" href="./index.html"><img src="./media/img/logotype.svg" alt="Воробьевы горы Фитнес клуб"></a>
+                <div class="burger_menu"><img src="./media/icons/burger.svg" alt=""></div>
+                <div class="burger_close"><img src="./media/icons/close.svg" alt=""></div>
+
+                <div class="header_menu_wrapper">
+                    <nav class="header_menu">
+                        <ul class="header_list">
+                            <li><a class="hed_link" href="./about.html">О компании</a></li>
+                            <li><a class="hed_link" href="./services.html">Услуги</a></li>
+                            <li><a class="hed_link" href="./team.html">Команда</a></li>
+                            <li><a class="hed_link" href="./vacancies.html">Вакансии</a></li>
+                            <li><a class="hed_link" href="./contact.html">Контакты</a></li>
+                            <li><a class="hed_link" href="./club_card.html">Клубные карты</a></li>
+                        </ul>
+                    </nav>    
+                    <nav class="header_menu">
+                        <ul class="header_list">
+                            <li><a class="hed_link" href="./log_in.html">Войти</a></li>
+                            <li><a class="hed_link" href="./timetable.html">Расписание</a></li>
+                        </ul>
+                    </nav>                                        
+                </div>
+            </div>    
+        </div>
+    </header>
+    <main>
+        <section class="modal">
+            <div class="container">
+                <a class="modal_back_link button_first" href="#"><img src="./media/icons/arrow_smallDefault.svg" alt=""> Назад</a>
+                <div class="cont">
+                    <div class="modal_title">
+                        <h1>ЗАКАЗАТЬ <br><span>ОБРАТНЫЙ ЗВОНОК</span></h1>
+                    </div>
+                    <div class="modal_form">
+                        <form name="callback" method="post" class="call-form">
+                            <div class="form_field">
+                                <input tabindex="1" class="p2 call-form__name" type="text" id="name" pattern="[0-9]{3}+" name="name" placeholder="Имя*" title="Введите ваше имя" required/>
+                            </div>
+                            <div class="form_field">
+                                <input tabindex="2" class="p2 call-form__phone" type="tel" id="phone" name="phone" placeholder="Телефон*" title="Введите ваш телефон" required/>
+                            </div>
+                            <input type="hidden" name="type" value="Обратный звонок" class="call-form__type">
+                            <div class="form_field form_select_custom"> 
+                                <select tabindex="3" class="p2 filter_btn_list filter_btn_date_modal call-form__time" name="callTime" style="display: none;">
+                                    <option value="С 9:00 ДО 15:00">С 9:00 ДО 15:00</option>
+                                    <option value="С 15:00 ДО 21:00">С 15:00 ДО 21:00</option>
+                                </select>
+                            </div>
+                            <button class="modal_btn_sumbit button_first" type="submit">Отправить</button>
+                            <label class="caption user_right"  for="user_right">Нажимая кнопку "Отправить", вы принимаете условия
+                                                        пользовательского соглашения на <a class="personalData" href="#">обработку персональных данных</a>
+                            </label>
+                        </form>    
+                    </div>
+                </div>    
+            </div>         
+        </section>
+        <section class="modal_apply_card">
+            <div class="container">
+                <a class="modal_back_link button_first" href="#"><img src="./media/icons/arrow_smallDefault.svg" alt=""> Назад</a>
+                <div class="cont">
+                    <div class="modal_title">
+                        <h1>оформить<br><span>Клубную карту</span></h1>
+                    </div>
+                    <div class="modal_form">
+                        <form name="callback" method="post" class="card-form">
+                            <div class="form_field">
+                                <input tabindex="1" class="p2 card-form__name" type="text" id="name" pattern="[0-9]{3}+" name="name" placeholder="Имя*" title="Введите ваше имя" required/>
+                            </div>
+                            <div class="form_field">
+                                <input tabindex="2" class="p2 card-form__phone" type="tel" id="phone" name="phone" placeholder="Телефон*" title="Введите ваш телефон" required/>
+                            </div>
+                            <input type="hidden" name="type" value="Выдача карты" class="card-form__type">
+                            <button class="modal_btn_sumbit button_first" type="submit">Отправить</button>
+                            <label class="caption"  for="user_right">Нажимая кнопку "Отправить", вы принимаете условия
+                                                        пользовательского соглашения на <a class="personalData" href="#">обработку персональных данных</a>
+                            </label>
+                        </form>    
+                    </div>
+                </div>    
+            </div>          
+        </section>
+
+        <div class="cover">
+            <div class="container">
+                <div class="cover_body">
+                    <div class="coverBody__text">
+                        <h1 class="coverBody__headingText">Фитнес-клуб <span class="coverBody__contrast">Воробьевы горы</span></h1>
+                        <p class="coverBody__descr">Для реализации ваших планов по улучшению внешности, укрепление здоровья,созданию красивой и стройной фигуры</p>
+                    </div>
+                    <div class="coverBody__imgPreview">
+                        <img src="./media/img/1homepage.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="aboutCompany">
+            <div class="container">
+                <div class="about_body">
+                    <div class="aboutCompanyBody__text">
+                        <h2>О клубе</h2>
+                        <p>Для реализации ваших планов по улучшению внешности, укрепление здоровья,созданию красивой и стройной фигуры улучшению внешности, укрепление здоровья,созданию красивой и стройной фигуры</p>
+                    </div>
+                    <div class="aboutCompany_benef">
+                        <div class="benef_img">
+                            <img src="./media/img/2homepage.png" alt="">
+                        </div>
+                        <div class="benef_main">
+                            <div class="benefits_listItems benef_main_line">
+                                <div class="benefits_list">
+                                    <div class="benefits_item">
+                                        <img src="./media/icons/certificate.svg" alt="">
+                                        <p class="caption">Сертифицированные тренеры</p>                                     
+                                    </div>
+                                    <div class="benefits_item">
+                                        <img src="./media/icons/carpet.svg" alt="">
+                                        <p class="caption">Разнообразные <br> фитнес-программы</p>                                    
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="benefits_listItems benefitsList_top">
+                                <div class="benefits_list">
+                                    <div class="benefits_item">
+                                        <img src="./media/icons/kettlebell.svg" alt="">
+                                        <p class="caption">Оборудование фирм MB Barbell, BenCar</p>                                     
+                                    </div>
+                                    <div class="benefits_item">
+                                        <img src="./media/icons/ball.svg" alt="">
+                                        <p class="caption">Отдельные залы для функционального тренинга</p>                                    
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="betweenBlock_line80px"></div>
+        </div>
+        
+        <div class="overview__MainBlock">
+            <div class="container">
+                <div class="overview_body">
+                    <div class="overviewBody__text">
+                        <h2>Обзор</h2>
+                        <p>Наш фитнес-клуб оборудован самыми современными 
+                            системами очистки воздуха, а тренажеры регулярно протираются в течение всего дня. Все в этом зале создано 
+                            для вашего комфортного и продуктивного тренировочного процесса в любое время дня</p>
+                    </div>
+                    <div class="slider_wrapper">
+                        <div class="wrapper_slider_btn">
+                            <button class="customPrevBtn">
+                                <div class="arrow_smallDefault iconRotateRight"></div>
+                            </button>
+                            <button class="customNextBtn">
+                                <div class="arrow_smallDefault"></div>
+                            </button>
+                        </div>
+                        <!-- <div class="slider_wrapper_track"> -->
+                            <div class="overview_slider_main">
+                                <div class="slides_item">
+                                    <img class="slider_img" src="./media/img/homepage_overview.jpg" alt="">
+                                </div>
+                                <div class="slides_item">
+                                    <img class="slider_img" src="./media/img/homepage_overview1.jpg" alt="">
+                                </div>
+                                <div class="slides_item">
+                                    <img class="slider_img" src="./media/img/homepage_overview2.jpg" alt="">
+                                </div>
+                                <div class="slides_item">
+                                    <img class="slider_img" src="./media/img/homepage_overview3.jpg" alt="">
+                                </div>
+                            </div>                            
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="betweenBlock_line80px"></div>
+        </div>
+
+        <div class="clubCard__homePageBlock">
+            <div class="container">
+                <div class="clubCard_block_body">
+                    <div class="clubCard_blockBody__text">
+                        <h2>Клубные карты</h2>
+                        <div class="clubCard_block__textCont">
+                            <p>Подберите понравившееся для вас предложение и начините свой путь в мир фитнеса и здорового тела</p>  
+                            <a class="button_first" href="./club_card.html">Смотреть все <div class="arrow_smallDefault iconRotateLeft"></div></a> 
+                        </div>
+                    </div>
+                    
+                    <div class="cardList_wrapper">
+                        <div class="card_list">
+                            <a href="/club_card.html" id="DayCard" class="card_item">
+                                <div class="card_item_Content_inner">
+                                    <h4>Дневной абонемент</h4>
+                                    <div class="card_item_BotContent">
+                                        <h5>от 1 200 ₽</h5>
+                                        <div class="arrow_bigDefault"></div>
+                                    </div>                                    
+                                </div>
+                            </a>
+                            <a href="/club_card.html" id="unlimitedCard" class="card_item">
+                                <div class="card_item_Content_inner">
+                                    <h4>безлимитный абонемент</h4>
+                                    <div class="card_item_BotContent">
+                                        <h5>от 3 100 ₽</h5>
+                                        <div class="arrow_bigDefault"></div>
+                                    </div>                                    
+                                </div>
+                            </a>
+                            <a href="/club_card.html" id="groupCard" class="card_item">
+                                <div class="card_item_Content_inner">
+                                    <h4>Групповой абонемент</h4>
+                                    <div class="card_item_BotContent">
+                                        <h5>от 1 500 ₽</h5>
+                                        <div class="arrow_bigDefault"></div>
+                                    </div>                                    
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="contact_us_form">
+            <div class="container">
+                <div class="contact_us_body">
+                    <h2>Связаться с нами</h2>
+                    <form method="post" class="visit-form">
+                        <div class="form_field">
+                            <input class="p2 visit-form__name" type="text" id="name" name="name" placeholder="Имя" title="Введите ваше имя" required/>
+                        </div>
+                        <div class="form_field">
+                            <input class="p2 visit-form__phone" type="tel" id="phone" name="phone" placeholder="Телефон" title="Введите ваш телефон" required/>
+                        </div>
+                        <div class="form_field">
+                            <textarea class="p2 visit-form__comment" id="msg" name="comment" placeholder="Комментарий" title="Напишите ваше обращение"></textarea>
+                        </div>
+                        <input type="hidden" name="type" value="Личное посещение" class="visit-form__type">
+                        <button class="button_first" type="submit">Отправить</button>
+                        <label class="caption"  for="user_right">Нажимая кнопку "Отправить", вы принимаете условия
+                                                    пользовательского соглашения на <a class="personalData" href="#">обработку персональных данных</a>
+                        </label>
+                    </form>
+                </div>                
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_body">
+                <div class="footer_wrapper footer_part1">
+                    <a class="logo_main" href="./index.html"><img src="./media/img/logotypeWhte.svg" alt="Воробьевы горы Фитнес клуб"></a>
+                    <div class="social_wrapper">
+                        <a href="http://vk.com/vgsport45" target="_blank" class="social_item">
+                            <div class="soc_shape">
+                                <img src="./media/icons/vk.com.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="http://ok.ru/group/53471372509424" target="_blank" class="social_item">
+                            <div class="soc_shape">
+                                <img src="./media/icons/klass.ru.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="betweenBlock_footerLine0px"></div>
+        <div class="container">
+            <div class="footer_body">
+                <div class="footer_wrapper footer_part2">
+                    <div class="footerLink_contactUs">
+                        <a href="#" class="footerLink_contactUs__wrapper">
+                            <h5>связаться с нами</h5>   
+                            <div class="arrow_long"></div>
+                        </a>
+                    </div>
+                    <div class="footerLinks_wrapper">
+                        <div class="footer_links">
+                            <div class="footerLinks_item">
+                                <a class="hed_link" href="./about.html">О компании</a>
+                                <a class="hed_link" href="./services.html">Услуги</a>
+                                <a class="hed_link" href="./club_card.html">Клубные карты</a>
+                            </div>
+                        </div>
+                        <div class="footer_links">
+                            <div class="footerLinks_item">
+                                <a class="hed_link" href="./team.html">Команда</a>
+                                <a class="hed_link" href="./vacancies.html">Вакансии</a>
+                                <a class="hed_link" href="./client_info.html">Личный кабинет</a>
+                            </div>
+                        </div>
+                        <div class="footer_links">
+                            <div class="footerLinks_item">
+                                <a class="hed_link" href="./timetable.html">Расписание</a>
+                                <a class="hed_link" href="./contact.html">Контакты</a>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="betweenBlock_footerLine0px"></div>
+        <div class="container">
+            <div class="footer_body">
+                <div class="footer_wrapper footer_part3">
+                    <p class="caption">© 2022 Фитнес-клуб «Воробьевы горы»</p>
+                    <p class="caption">Сайт сделал <a class="LinkDesignerSite" href="https://www.behance.net/nikitinivan" target="_blank">Ivan Nikitin</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="./script/auth-menu.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./script/axios.min.js"></script>
+
+    <script src="./script/mainPage.js"></script>
+    <script src="./script/index.js"></script>
+    
+    <script src="./script/jquery-3.6.0.min.js"></script>
+    <script src="./script/jquery.nice-select.min.js"></script>
+    <script src="./script/jquery.maskedinput.min.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+</html>
