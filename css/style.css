@@ -313,8 +313,8 @@ p,.p{
 } */
 @media (max-width:767px) {
     .container{
-        margin:0 auto;
-        max-width: 345px;
+        margin:0px auto;
+        max-width: 375px;   
     }
 }
 
