@@ -314,8 +314,8 @@ p,.p{
 @media (max-width:767px) {
     .container{
         margin: 0px auto;
-        min-width: 375px;
-        padding: 0 15px;
+        min-width: 345px;
+        /* padding: 0 15px; */
     }
 }
 
