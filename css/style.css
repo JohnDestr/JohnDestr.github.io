@@ -1070,9 +1070,10 @@ footer{
 }
 @media (max-width:767px) {
     footer{
-        width: 375px;
+        width: 100%;
         background-color: var(--secoundary);
-        color:var(--background) !important;
+        color: var(--background) !important;
+        margin: 0 auto;
     }
     .footer_wrapper{
         width: 100%;
