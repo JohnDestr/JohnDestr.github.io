@@ -975,7 +975,7 @@ form textarea{
 
 /* FOOTER */
 footer{
-    width: 100%;
+    /* width: 100%; */
     background-color: var(--secoundary);
     color:var(--background) !important;
 }
@@ -1070,7 +1070,7 @@ footer{
 }
 @media (max-width:767px) {
     footer{
-        width: 100%;
+        /* width: 100%; */
         background-color: var(--secoundary);
         color: var(--background) !important;
     }
