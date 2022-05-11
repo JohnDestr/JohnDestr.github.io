@@ -686,7 +686,7 @@ p,.p{
 @media (max-width:767px) {
     .slider_wrapper{
         margin-top: 40px;
-        width: 320px;
+        width: 340px;
         overflow: hidden;
     }
     .wrapper_slider_btn{
@@ -694,12 +694,12 @@ p,.p{
     }
     .slides_item{
         padding-right: 20px;
-        width: 320px;
+        width: 340px;
         height: 230px;
     }
     .slider_img{
         border-radius: var(--def-radius);
-        width: 320px;
+        width: 340px;
         height: 230px;
         object-fit: cover;
     }
