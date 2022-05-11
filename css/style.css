@@ -1069,7 +1069,8 @@ footer{
     padding-bottom: 0;
 }
 @media (max-width:767px) {
-    footer .container{
+    .footer .container{
+        width: 100%;
         background-color: var(--secoundary);
         color: var(--background) !important;
     }
