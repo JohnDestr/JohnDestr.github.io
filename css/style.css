@@ -685,7 +685,7 @@ p,.p{
 @media (max-width:767px) {
     .slider_wrapper{
         margin-top: 40px;
-        width: 100%;
+        width: 345px;
         overflow: hidden;
     }
     .wrapper_slider_btn{
