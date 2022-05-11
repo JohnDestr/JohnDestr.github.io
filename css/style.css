@@ -976,6 +976,7 @@ form textarea{
 /* FOOTER */
 .footer{
     width: 100%;
+    background-color: var(--secoundary);
     color:var(--background) !important;
 }
 .footer_form_page{
