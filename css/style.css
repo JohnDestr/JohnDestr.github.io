@@ -975,14 +975,8 @@ form textarea{
 
 /* FOOTER */
 .footer{
-    width: 100%;
+    width: 375px;
     color:var(--background) !important;
-}
-.footer:before{
-    content: '';
-    width: 100%;
-    height: auto;
-    background-color: var(--secoundary);
 }
 .footer_form_page{
     margin:0;
