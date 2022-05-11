@@ -1067,8 +1067,8 @@ form textarea{
     padding-bottom: 0;
 }
 @media (max-width:767px) {
-    .footer{
-        width: 125%;
+    footer{
+        width: 375px;
         background-color: var(--secoundary);
         color:var(--background) !important;
     }
