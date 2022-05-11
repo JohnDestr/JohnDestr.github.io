@@ -684,6 +684,7 @@ p,.p{
 .customPrevBtn:first-child{
     margin-right: 20px;
 }
+
 @media (max-width:767px) {
     .slider_wrapper{
         margin-top: 40px;
@@ -980,6 +981,7 @@ form textarea{
 .footer:before{
     content: '';
     width: 100%;
+    height: auto;
     background-color: var(--secoundary);
 }
 .footer_form_page{
