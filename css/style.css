@@ -313,9 +313,10 @@ p,.p{
 } */
 @media (max-width:767px) {
     .container{
-        max-width: 345px;
-        width: 345px;
+        max-width: 375px;
+        width: 375px;
         margin: 0px auto;
+        padding: 0px 15px;
     }
 }
 
