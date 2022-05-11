@@ -1068,7 +1068,7 @@ form textarea{
 }
 @media (max-width:767px) {
     .footer{
-        width: 100%;
+        width: 125%;
         background-color: var(--secoundary);
         color:var(--background) !important;
     }
