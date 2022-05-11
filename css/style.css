@@ -632,12 +632,12 @@ p,.p{
 }
 .slides_item{
     padding-right: 20px;
-    min-width: 420px;
+    width: 420px;
     height: 380px;
 }
 .slider_img{
     border-radius: var(--def-radius);
-    min-width: 580px;
+    width: 580px;
     height: 380px;
     object-fit: cover;
 }
@@ -686,7 +686,7 @@ p,.p{
 @media (max-width:767px) {
     .slider_wrapper{
         margin-top: 40px;
-        width: 345px;
+        width: 100%;
         overflow: hidden;
     }
     .wrapper_slider_btn{
@@ -694,12 +694,12 @@ p,.p{
     }
     .slides_item{
         padding-right: 20px;
-        min-width: 345px;
+        width: 345px;
         height: 230px;
     }
     .slider_img{
         border-radius: var(--def-radius);
-        min-width: 345px;
+        width: 345px;
         height: 230px;
         object-fit: cover;
     }
