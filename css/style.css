@@ -975,7 +975,7 @@ form textarea{
 
 /* FOOTER */
 .footer{
-    width: 375px;
+    width: 100%;
     color:var(--background) !important;
 }
 .footer_form_page{
@@ -1070,6 +1070,9 @@ form textarea{
         width: 100%;
         background-color: var(--secoundary);
         color:var(--background) !important;
+    }
+    .footer_wrapper{
+        width: 100%;
     }
     .footer_part2{
        margin:40px 0 80px 0;
