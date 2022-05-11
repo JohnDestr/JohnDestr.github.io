@@ -974,7 +974,7 @@ form textarea{
 
 
 /* FOOTER */
-.footer{
+footer{
     width: 100%;
     background-color: var(--secoundary);
     color:var(--background) !important;
@@ -1019,6 +1019,12 @@ form textarea{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 46px;
+    height: 46px;
+}
+.soc_shape img{
+    width: 46px;
+    height: 46px;
 }
 .footerLink_contactUs{
     width: 320px;
