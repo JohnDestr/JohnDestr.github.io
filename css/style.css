@@ -308,13 +308,17 @@ p,.p{
     }
 } */
 @media (max-width: 460px) {
-    /* html,body{
-        overflow-x: hidden
-    } */
     .container{
-        max-width: 375px;
+        max-width: 414px;
         margin: 0px auto;
         padding: 0px 15px;
+    }
+}
+@media (max-width: 321px) {
+    .container{
+        max-width: 320px;
+        margin: 0px auto;
+        padding: 0px 10px;
     }
 }
 
