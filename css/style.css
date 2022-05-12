@@ -297,6 +297,18 @@ p,.p{
 
 
 
+html,
+body {
+  height: 100%;
+}
+
+html {
+  min-width: 320px;
+}
+
+body {
+  overflow-x: hidden;
+}
 
 
 .container{
