@@ -312,8 +312,7 @@ p,.p{
         overflow-x: hidden
     } */
     .container{
-        max-width: 414px;
-        width: 375px;
+        max-width: 375px;
         margin: 0px auto;
         padding: 0px 15px;
     }
