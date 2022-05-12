@@ -1116,7 +1116,7 @@ footer{
         padding-bottom: 20px;
     }
     .footerLinks_wrapper{
-        width: 345px;
+        width: 100%;
         display: block;
     }
     .footer_links{
