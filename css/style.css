@@ -308,9 +308,9 @@ p,.p{
     }
 } */
 @media (max-width:767px) {
-    html,body{
+    /* html,body{
         overflow-x: hidden
-    }
+    } */
     .container{
         max-width: 414px;
         width: 345px;
