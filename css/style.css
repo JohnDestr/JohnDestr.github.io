@@ -139,7 +139,7 @@ p,.p{
     user-select: none;     
     pointer-events: none;
 }
-@media (max-width:767px) {
+@media (max-width: 460px) {
     h1{
         font-weight: 600;
         font-size: 32px;
@@ -307,7 +307,7 @@ p,.p{
         padding: 0 24px;
     }
 } */
-@media (max-width:767px) {
+@media (max-width: 460px) {
     /* html,body{
         overflow-x: hidden
     } */
@@ -374,7 +374,7 @@ p,.p{
     z-index: 15;
 }
 /* Адаптив шапки */
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .header_menu:nth-child(2){
         margin-left: 0px;
     }
@@ -484,7 +484,7 @@ p,.p{
     border-radius: var(--def-radius);
 }
 
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .cover{
         margin-top: 40px;
     }
@@ -560,7 +560,7 @@ p,.p{
     height: 100%;
     padding-top: 10px;
 }
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .aboutCompany,.mainEvents,.contact_us_form{
         margin-top:80px;
     }
@@ -683,7 +683,7 @@ p,.p{
     margin-right: 20px;
 }
 
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .slider_wrapper{
         margin-top: 40px;
         width: 100%;
@@ -742,7 +742,7 @@ p,.p{
 .clubCard_block__textCont .button_first:hover .arrow_smallDefault{
     margin-left: 15px;
 }
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .clubCard__homePageBlock{
         margin-top:40px;
     }
@@ -806,7 +806,7 @@ p,.p{
     align-items:flex-end;
     justify-content: space-between;
 }
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .cardList_wrapper{
         margin-top:40px;
         width: 100%;
@@ -931,7 +931,7 @@ form textarea{
     text-decoration: none;
     color:var(--secoundary);
 }
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .contact_us_body{
         display: block;
     }
@@ -1066,7 +1066,7 @@ footer{
 .footerLinks_item .hed_link:last-child{
     padding-bottom: 0;
 }
-@media (max-width:767px) {
+@media (max-width: 460px) {
     footer{
         width: 100%;
         height: 100%;
@@ -1220,7 +1220,7 @@ footer{
     text-transform: uppercase;
     color: var(--secoundary);
 }
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .aboutHead_text{
         width: 300px;
     }
@@ -1302,7 +1302,7 @@ footer{
     justify-content: space-between;
     align-items: flex-end;
 }
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .info_block_first__text{
         display:block;
         margin-bottom: 40px;
@@ -1418,7 +1418,7 @@ footer{
     height: 220px;
     object-fit: cover;
 }
-@media (max-width:767px) {
+@media (max-width: 460px) {
 
     .info_item_card{
         display: block;
@@ -1505,7 +1505,7 @@ footer{
     height: 248px;
     margin-top:40px;
 }
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .info_block__last{
         margin: 40px 0 80px 0;
     }
@@ -1629,7 +1629,7 @@ footer{
     margin-left: 15px;
 }
 
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .services{
         margin-top: 20px;
     }
@@ -1773,7 +1773,7 @@ footer{
     margin-top: 5px;
     color:var(--greyText);
 }
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .cover_team_main{
         margin: 20px 0 40px 0;
     }
@@ -1898,7 +1898,7 @@ footer{
 .vacancies__benefits_to_work img{
     border-radius: var(--def-radius);
 }
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .text_contact_vacancies{
         padding-bottom: 40px;
         margin: 20px 0 20px 0;
@@ -2067,7 +2067,7 @@ footer{
     margin-top: 60px;
 }
 
-@media (max-width:767px) {
+@media (max-width: 460px) {
     .contact_main{
         margin: 20px 0 0 0;
     }
